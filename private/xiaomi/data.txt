@@ -1,0 +1,64 @@
+{
+    "nav": [
+        {
+            "cate": "小米手机",
+            "isNew": true,
+            "name": "小米MIX2",
+            "price": 3299
+        },
+        {
+            "cate": "小米手机",
+            "isNew": true,
+            "name": "小米MIX2",
+            "price": 3299
+        },
+        {
+            "cate": "小米手机",
+            "isNew": true,
+            "name": "小米MIX2",
+            "price": 3299
+        },
+        {
+            "cate": "小米手机",
+            "isNew": true,
+            "name": "小米MIX2",
+            "price": 3299
+        },
+        {
+            "cate": "小米手机",
+            "isNew": true,
+            "name": "小米MIX2",
+            "price": 3299
+        },
+        {
+            "cate": "小米手机",
+            "isNew": true,
+            "name": "小米MIX2",
+            "price": 3299
+        },
+        {
+            "cate": "小米手机",
+            "isNew": true,
+            "name": "小米MIX2",
+            "price": 3299
+        },
+        {
+            "cate": "小米手机",
+            "isNew": true,
+            "name": "小米MIX2",
+            "price": 3299
+        },
+        {
+            "cate": "小米手机",
+            "isNew": true,
+            "name": "小米MIX2",
+            "price": 3299
+        },
+        {
+            "cate": "小米手机",
+            "isNew": true,
+            "name": "小米MIX2",
+            "price": 3299
+        }
+    ]
+}
