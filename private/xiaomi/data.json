@@ -22,12 +22,27 @@
                             "price": 3299
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "cate": "xiaomi",
-            "cateChild": [
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
                 {
                     "isShow": false,
                     "cateMenu": [
@@ -72,12 +87,27 @@
                             "price": 3299
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "cate": "xiaomi",
-            "cateChild": [
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
                 {
                     "isShow": false,
                     "cateMenu": [
@@ -122,12 +152,27 @@
                             "price": 3299
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "cate": "xiaomi",
-            "cateChild": [
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
                 {
                     "isShow": false,
                     "cateMenu": [
@@ -172,12 +217,27 @@
                             "price": 3299
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "cate": "xiaomi",
-            "cateChild": [
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
                 {
                     "isShow": false,
                     "cateMenu": [
@@ -222,12 +282,352 @@
                             "price": 3299
                         }
                     ]
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
                 }
             ]
         },
         {
             "cate": "xiaomi",
             "cateChild": [
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cate": "xiaomi",
+            "cateChild": [
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cate": "xiaomi",
+            "cateChild": [
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cate": "xiaomi",
+            "cateChild": [
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cate": "xiaomi",
+            "cateChild": [
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
+                {
+                    "isShow": false,
+                    "cateMenu": [
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        },
+                        {
+                            "isNew": true,
+                            "name": "xmMIX2",
+                            "price": 3299
+                        }
+                    ]
+                },
                 {
                     "isShow": false,
                     "cateMenu": [
