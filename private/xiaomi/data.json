@@ -1,7 +1,7 @@
 {
     "nav": [
         {
-            "cate": "xiaomi",
+            "cate": "xiaomi1",
             "isShow": false,
             "cateChild": [
                 {
@@ -11,55 +11,55 @@
                 },
                 {
                     "isNew": true,
-                    "name": "xmMIX2",
-                    "price": 3299
+                    "name": "xmMIX3",
+                    "price": 4299
                 },
                 {
                     "isNew": true,
-                    "name": "xmMIX2",
-                    "price": 3299
+                    "name": "xmMIX4",
+                    "price": 5299
                 }
             ]
         },
         {
-            "cate": "xiaomi",
+            "cate": "xiaomi2",
             "isShow": false,
             "cateChild": [
                 {
                     "isNew": true,
-                    "name": "xmMIX2",
+                    "name": "xmMIX4",
                     "price": 3299
                 },
                 {
                     "isNew": true,
-                    "name": "xmMIX2",
-                    "price": 3299
+                    "name": "xmMIX5",
+                    "price": 9299
                 },
                 {
                     "isNew": true,
-                    "name": "xmMIX2",
-                    "price": 3299
+                    "name": "xmMIX6",
+                    "price": 6899
                 }
             ]
         },
         {
-            "cate": "xiaomi",
+            "cate": "xiaomi3",
             "isShow": false,
             "cateChild": [
                 {
                     "isNew": true,
-                    "name": "xmMIX2",
-                    "price": 3299
+                    "name": "xmMIX8",
+                    "price": 8299
                 },
                 {
                     "isNew": true,
-                    "name": "xmMIX2",
-                    "price": 3299
+                    "name": "xmMIX9",
+                    "price": 4599
                 },
                 {
                     "isNew": true,
-                    "name": "xmMIX2",
-                    "price": 3299
+                    "name": "xmMIX3",
+                    "price": 6799
                 }
             ]
         }
