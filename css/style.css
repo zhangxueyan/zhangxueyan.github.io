@@ -58,17 +58,17 @@
      background-color: #cd91ff;
    }
    /*第一屏ending*/
-   .profile{
+   .part{
     background-color: #e9f0f5;
   }
-  .profile .container{
+  .part .container{
     position: relative;
     padding: 100px 0;
   }
-  .experience .container{
+  #s4 .container{
     padding:20px 0;
   }
-  .profile-item{
+  .part-item{
     width:450px;
     background: #fff;
     box-shadow: 0 3px 0 #d7e4ed;
@@ -78,10 +78,10 @@
     position: relative;
     margin-top: 20px;
   }
-  .profile-item2{
+  .part-item2{
     margin-left: 550px;
   }
-  .profile-line{
+  .part-line{
     display: block;
     width: 4px;
     background: #d7e4ed;
@@ -91,7 +91,7 @@
     margin-left: -2px;
     top:0;
   }
-  .profile-orn1{
+  .part-orn1{
     display: block;
     width: 0;
     height: 0;
@@ -102,7 +102,7 @@
     right: -20px;
     top: 50px;
   }
-  .profile-orn2{
+  .part-orn2{
     display: block;
     width: 0;
     height: 0;
@@ -113,7 +113,7 @@
     left: -20px;
     top: 50px;
   }
-  .profile-cir{
+  .part-cir{
     display: block;
     width: 50px;
     height: 50px;
@@ -122,11 +122,11 @@
     background-color: #8bd655;
     position: absolute;
   }
-  .profile-cir1{
+  .part-cir1{
     right: -75px;
     top: 0;
   }
-  .profile-cir2{
+  .part-cir2{
     left: -75px;
     top: 0;
   }
