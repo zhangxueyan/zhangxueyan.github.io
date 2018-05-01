@@ -1,6 +1,7 @@
     .container{
       width: 1000px;
       margin:0 auto;
+      position: relative;
     }
     .clearfix:after{
       content: "";
@@ -59,14 +60,7 @@
    }
    /*第一屏ending*/
    .part{
-    background-color: #e9f0f5;
-  }
-  .part .container{
-    position: relative;
-    padding: 100px 0;
-  }
-  #s4 .container{
-    padding:20px 0;
+    background: #e9f0f5;
   }
   .part-item{
     width:450px;
