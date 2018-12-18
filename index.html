@@ -1,144 +1,253 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="keywords" content="web前端，web前端个人简历，前端开发">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Web前端个人简历</title>
-  <link rel="stylesheet" href="https://zhangxueyan.github.io/css/init.css">
-  <link rel="stylesheet" href="https://zhangxueyan.github.io/css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
-  <script src="https://zhangxueyan.github.io/js/jquery-1.11.1.min.js"></script>
-  <script src="https://zhangxueyan.github.io/js/jquery.fullPage.min.js"></script>
-  <script src="https://zhangxueyan.github.io/js/jquery.easing.min.js"></script>
-</head>
-<body>
-  <div id="fullpage">
-    <div class="section home">
-      <div class="container">
-       <h2>Front end Engineer</h2>
-       <h3>Grace Zhang</h3>
-       <div class="nav-list clearfix">
-         <a href="#page2" class="home-basic no-ml">基本信息</a>
-         <a href="#page3" class="home-work">专业技能</a>
-         <a href="#page4" class="home-project">工作经历</a>
-         <a href="#page5" class="home-other">项目经验</a>
-       </div>
-     </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/res16.png">
+    <meta name="keywords" content="web前端，web前端个人简历，前端开发简历网站，前端工程师简历,web前端开发, web前端培训, web前端工程师" />
+    <meta name="description" content="web前端个人简历" />
+    <title>Web前端工程师简历</title>
+    <!-- fullpage + Swiper 4.4.2 +init -->
+    <!-- <link rel="stylesheet" href="css/jquery.fullPage.css"> -->
+    <!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/init.css"> -->
+    <link rel="stylesheet" href="concat/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="clearfix">
+             <!-- 小屏左侧导航 -->
+             <div class="hea-nav">
+               <a href="javascript:;" class="hea-obtn"></a>
+               <div class="hea-mask"></div>
+               <div class="hea-items clearfix" id="myMenu">
+                 <a href="#firstPage"  class="hea-item" data-menuanchor="firstPage">首页</a>
+                 <a href="#secondPage" class="hea-item" data-menuanchor="secondPage">基本信息</a>
+                 <a href="#thirdPage"  class="hea-item" data-menuanchor="thirdPage">专业技能</a>
+                 <a href="#fourthPage" class="hea-item" data-menuanchor="fourthPage">工作经历</a>
+                 <a href="#fifthPage"  class="hea-item" data-menuanchor="fifthPage">项目经验</a>
+                 <a href="#sixthPage"  class="hea-item" data-menuanchor="sixthPage">联系我</a>
+               </div>
+               <span class="hea-cbtn"></span>
+             </div>
+             <!-- 中英文切换 -->
+             <div class="hea-switch">
+               <span class="hea-btn hea-zh active">中</span>
+               <span class="hea-btn hea-en">英</span>
+             </div>
+             <!-- logo -->
+             <a href="https://github.com/zhangxueyan" class="hea-logo">
+               <img src="images/res01.jpg" alt="">
+             </a>
+    </header>
+    <!-- header ending -->
+    <div class="section page1">
+            <div class="page1-icon">
+               <img src="images/res01.jpg" alt="">
+            </div>
+            <p class="page1-p1">
+              <span>既然选择了远方，便只顾风雨兼程!相信自己的人，任何事情都能够做到。</span>
+            </p>
+            <p class="page1-p2">我叫张雪艳<br>是一名前端工程师<br>1632895066@qq.com</p>
     </div>
-    <!-- introduce -->
-    <div class="section part" id="s2">
-     <span class="part-line"></span>
-     <div class="container">
-       <div class="part-item">
-         <span class="part-orn1"></span>
-         <span class="part-cir part-cir1"></span>
-         <p>姓名：张雪艳</p>
-         <p>性别：女</p>
-         <p>出生年月：1991年10月</p>
-         <p>籍贯：河南周口</p>
-         <p>现居地：北京朝阳</p>
-       </div>
-       <div class="part-item part-item2">
-         <span class="part-orn2"></span>
-         <span class="part-cir part-cir2"></span>
-         <p>联系方式</p>
-         <p>手机：18749490226</p>
-         <p>邮箱：1632895066@qq.com</p>
-         <p>Github：https://github.com/zhangxueyan</p>
-       </div>
-       <div class="part-item">
-         <span class="part-orn1"></span>
-         <span class="part-cir part-cir1"></span>
-         <p>教育背景</p>
-         <p>2010/09-2013/07  河南工程学院</p>
-         <p>2007/09-2010/07  河南省淮阳中学</p>
-       </div>
-     </div>
+    <!-- page1 ending -->
+    <div class="section page2">
+            <p class="page-titl">关于我</p>
+            <ul class="page2-items clearfix">
+                <li class="page2-item no-ml">
+                  <div class="page2-icon">
+                    <img src="images/res04.png">
+                  </div>
+                  <p class="page2-p1">年龄/27岁</p>
+                </li>
+                <li class="page2-item">
+                  <div class="page2-icon">
+                    <img src="images/res05.png">
+                  </div>
+                  <p class="page2-p1">学历/专科</p>
+                </li>
+                <li class="page2-item">
+                  <div class="page2-icon">
+                    <img src="images/res06.png">
+                  </div>
+                  <p class="page2-p1">坐标/北京</p>
+                </li>
+                <li class="page2-item">
+                  <div class="page2-icon">
+                    <img src="images/res07.png">
+                  </div>
+                  <p class="page2-p1">状态/离职</p>
+                </li>
+            </ul>
+            <p class="page2-p2">三年前端开发工作经验<br>喜欢不断专研和总结,具备独立分析解决问题能力<br>具有良好的学习能力和沟通能力,能够迅速融入团队;</p>
     </div>
-    <!-- skill -->
-    <div class="section part" id="s3">
-     <span class="part-line"></span>
-     <div class="container">
-       <div class="part-item">
-         <span class="part-orn1"></span>
-         <span class="part-cir part-cir1"></span>
-         <p>掌握html5/css3/javascript/dom/bom/ajax/json；<br>熟练使用主流类库/框架jquery/underscore/swiper;<br>熟练使用vue,vue-cli,scss,图表库eCharts;<br>熟悉各种web标准规范;</p>
-       </div>
-       <div class="part-item part-item2">
-         <span class="part-orn2"></span>
-         <span class="part-cir part-cir2"></span>
-         <p>熟悉node/npm/gulp/webpack/git;<br>熟悉mint-ui/element-ui的移动端组件库和桌面端组件库;<br>熟悉http协议,了解TCP/IP的基本工作原理;<br>熟悉响应式开发框架bootstrap;<br>熟练使用photoshop图形制作软件;</p>
-       </div>
-       <div class="part-item">
-         <span class="part-orn1"></span>
-         <span class="part-cir part-cir1"></span>
-         <p>具有良好的学习能力和沟通能力,能够迅速融入团队;<br>能够解决前端开发中遇到的各种问题,并持续优化前端体验;<br>有H5跨平台开发经验，能解决iOS和Android设备下的屏幕适配和兼容问题;</p>
-       </div>
-     </div>
+    <!-- page2 ending -->
+    <div class="section page3">
+            <p class="page-titl">专业技能</p>
+            <div class="page3-items clearfix">
+               <div class="page3-ring">
+                  <div class="page3-core">
+                       <div class="page3-dy page3-dy1"><span>vue</span></div>
+                       <div class="page3-dy page3-dy2"><span>node</span></div>
+                       <div class="page3-dy page3-dy3"><span>gulp</span></div>
+                       <div class="page3-dy page3-dy4"><span>git</span></div>
+                       <div class="page3-dy page3-dy5"><span>ajax</span></div>
+                       <div class="page3-dy page3-dy6"><span>json</span></div>
+                       <div class="page3-dy page3-dy7"><span>ps</span></div>
+                  </div>
+                  <div class="page3-childRing">
+                       <div class="page3-core">
+                        <div class="page3-xy page3-xy1"><span>html</span></div>
+                        <div class="page3-xy page3-xy2"><span>css</span></div>
+                        <div class="page3-xy page3-xy3"><span>js</span></div>
+                       </div>
+                  </div>
+               </div>
+               <div class="page3-p1">掌握html5/css3/javascript/dom/bom/ajax/json；<br>熟练使用主流类库/框架jquery/vue/swiper;<br>熟悉各种常见的web标准规范;<br>熟练使用photoshop图形制作软件;
+               </div>
+            </div>
     </div>
-    <!-- work experience -->
-    <div class="section part" id="s4">
-     <span class="part-line"></span>
-     <div class="container">
-     <div class="part-item">
-       <span class="part-orn1"></span>
-       <span class="part-cir part-cir1"></span>
-       <p>2017/04 — 至今</p>
-       <p>上海新康进修学院</p>
-       <p>负责pc端 wap端， web site前端方面的工作，服务器维护</p>
-     </div>
-     <div class="part-item part-item2">
-       <span class="part-orn2"></span>
-       <span class="part-cir part-cir2"></span>
-       <p>2016/11—2017/03</p>
-       <p>环球全知国际教育咨询(北京)有限公司</p>
-       <p>负责Web site ，mobile website  前端方面的工作</p>
-     </div>
-     <div class="part-item">
-       <span class="part-orn1"></span>
-       <span class="part-cir part-cir1"></span>
-       <p>2016/07—2016/11</p>
-       <p>北京站多多科技有限公司</p>
-       <p>负责Web site前端方面的工作</p>
-     </div>
-     </div>
+    <!-- page3 ending -->
+    <div class="section page4">
+          <p class="page-titl">工作经历</p>
+          <!-- swiper -->
+          <div class="swiper-container page4-swiper1">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="page4-item clearfix">
+                        <div class="page4-icon">
+                           <img src="images/res08.png" alt="">
+                        </div>
+                        <div class="page4-txt">
+                          <p class="page4-p1">上海新康进修学院</p>
+                          <p class="page4-p2">2017/04 — 至今  前端研发</p>
+                          <p class="page4-p3">①负责快速构建高质量WAP/PC页面；</p>
+                          <p class="page4-p3">②根据业务需求嵌入营销软件系统,收集客户信息；</p>
+                          <p class="page4-p3">③负责维护公司云服务器，定期的更新项目，提高网络推广的效果。；</p>
+                          <p class="page4-p3">④同期学习ES6及vue等前端相关知识</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="page4-item clearfix">
+                        <div class="page4-icon">
+                           <img src="images/res09.png" alt="">
+                        </div>
+                        <div class="page4-txt">
+                          <p class="page4-p1">环球全知国际教育咨询(北京)有限公司</p>
+                          <p class="page4-p2">2016年11月—2017年3月  前端开发</p>
+                          <p class="page4-p3">①负责快速构建高质量WAP/PC页面；</p>
+                          <p class="page4-p3">②根据业务需求配合后端实现前端界面效果和功能；使用JS库jquery,Vue以及构建工具Glup,利用Ajax实现动态加载数据。</p>
+                          <p class="page4-p3">③同期初次接触并学习vue框架。</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="page4-item clearfix">
+                        <div class="page4-icon">
+                           <img src="images/res10.png" alt="">
+                        </div>
+                        <div class="page4-txt">
+                          <p class="page4-p1">北京站多多科技有限公司</p>
+                          <p class="page4-p2">2016年7月—2016年10月  网页制作</p>
+                          <p class="page4-p3">①根据公司业务系统制作WAP/PC页面；</p>
+                          <p class="page4-p3">②根据业务需求通过网络查找各种网站，经过筛选进行制作；</p>
+                          <p class="page4-p3">③同期巩固提升html/css/js等知识；</p>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+          </div>
+          <!-- swiper -->
     </div>
-    <!-- product -->
-    <div class="section part" id="s5">
-     <span class="part-line"></span>
-     <div class="container">
-     <div class="part-item">
-       <span class="part-orn1"></span>
-       <span class="part-cir part-cir1"></span>
-       <p>2017/04-至今&nbsp;&nbsp;新康教育前端开发</p>
-       <p>新康教育是做成人学历教育咨询，主要是通过各种营销渠道收录到客户名片信息，后期可以根据客户需求可以推荐合适的院校以及专业。根据公司需求开发各类pc端+移动端页面，以及维护公司的云服务器，定期的更新项目，提高网络推广的效果。</p>
-     </div>
-     <div class="part-item part-item2">
-       <span class="part-orn2"></span>
-       <span class="part-cir part-cir2"></span>
-       <p>2016/11—2017/03&nbsp;&nbsp;全知教育平台</p>
-       <p>全知教育（olc）是一款在线英语教育培训平台（pc端和wap端),针对不同的客户需求设置多样化的课程，致力于打造帮助客户实现英语综合能力全面提升的一站式在线教育平台。使用JS库jquery,Vue以及构建工具Glup,利用Ajax实现动态加载数据。</p>
-     </div>
-     <div class="part-item">
-       <span class="part-orn1"></span>
-       <span class="part-cir part-cir1"></span>
-       <p>2016/07-2016/11&nbsp;&nbsp;站多多网站开发</p>
-       <p>根据业务需求开发各种类型网站模板，比如企业官网，营销型网站，手机网站、响应式网站，同时负责公司官网更新和维护工作。</p>
-     </div>
-      </div>
+    <!-- page4 ending -->
+    <div class="section page5">
+          <p class="page-titl">项目经验</p>
+          <ul class="page5-items">
+              <li class="page5-item page5-item1">
+                 <p class="page5-p1">企业官网</p>
+                 <p class="page5-p2">普通性的各类企业网站开发，兼容IE8+,适配全移动机型，具有良好的兼容性，扩展性。根据客户群体的习性进行详细分析策划，制定出一套适合企业自身的网站建设的设计风格方案。</p>
+                 <a href="http://www.lemonedu.cn/" class="page5-a1"></a>
+              </li>
+              <li class="page5-item page5-item2">
+                 <p class="page5-p1">vue全家桶项目</p>
+                 <p class="page5-p2">仿知乎日报的vue全家桶(Vue+vue-cli+ES6+Vue-router+Vuex+axios+webpack)项目，github上查看更多内容。</p>
+                 <a href="https://github.com/zhangxueyan/zhihudaily" class="page5-a1"></a>
+              </li>
+              <li class="page5-item page5-item1">
+                 <p class="page5-p1">推广页面(pc)</p>
+                 <p class="page5-p2">新康教育是做成人学历教育咨询，主要是通过各种营销渠道收录到客户名片信息，后期可以根据客户需求可以推荐合适的院校以及专业。根据公司需求开发各类pc端+移动端页面，以及维护公司的云服务器，定期的更新项目，提高网络推广的效果。</p>
+                 <a href="http://www.lemonedu.cn/backups/pctest/pc-s32/" class="page5-a1"></a>
+              </li>
+              <li class="page5-item page5-item2">
+                 <p class="page5-p1">推广页面(wap)</p>
+                 <p class="page5-p2">新康教育是做成人学历教育咨询，主要是通过各种营销渠道收录到客户名片信息，后期可以根据客户需求可以推荐合适的院校以及专业。根据公司需求开发各类pc端+移动端页面，以及维护公司的云服务器，定期的更新项目，提高网络推广的效果。</p>
+                 <a href="http://www.lemonedu.cn/backups/waptest/yd-s100/" class="page5-a1"></a>
+              </li>
+          </ul>
+          <!-- swiper -->
+          <div class="swiper-container page5-swiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                   <div class="page5-item clearfix">
+                     <p class="page4-p1">企业官网</p>
+                     <p class="page4-p2">普通性的各类企业网站开发，兼容IE8+,适配全移动机型，具有良好的兼容性，扩展性。根据客户群体的习性进行详细分析策划，制定出一套适合企业自身的网站建设的设计风格方案。</p>
+                     <a href="http://www.lemonedu.cn/" class="page5-a1"></a>
+                   </div>
+                </div>
+                <div class="swiper-slide">
+                   <div class="page5-item clearfix">
+                     <p class="page4-p1">vue全家桶项目</p>
+                     <p class="page4-p2">仿知乎日报的vue全家桶(Vue+vue-cli+ES6+Vue-router+Vuex+axios+webpack)项目，github上查看更多内容。</p>
+                     <a href="https://github.com/zhangxueyan/zhihudaily" class="page5-a1"></a>
+                   </div>
+                </div>
+                <div class="swiper-slide">
+                   <div class="page5-item clearfix">
+                     <p class="page4-p1">推广页面(pc)</p>
+                     <p class="page4-p2">新康教育是做成人学历教育咨询，主要是通过各种营销渠道收录到客户名片信息，后期可以根据客户需求可以推荐合适的院校以及专业。根据公司需求开发各类pc端+移动端页面，以及维护公司的云服务器，定期的更新项目，提高网络推广的效果。</p>
+                     <a href="http://www.lemonedu.cn/backups/pctest/pc-s32/" class="page5-a1"></a>
+                   </div>
+                </div>
+                <div class="swiper-slide">
+                   <div class="page5-item clearfix">
+                     <p class="page4-p1">推广页面(wap)</p>
+                     <p class="page4-p2">新康教育是做成人学历教育咨询，主要是通过各种营销渠道收录到客户名片信息，后期可以根据客户需求可以推荐合适的院校以及专业。根据公司需求开发各类pc端+移动端页面，以及维护公司的云服务器，定期的更新项目，提高网络推广的效果。</p>
+                     <a href="http://www.lemonedu.cn/backups/waptest/yd-s100/" class="page5-a1"></a>
+                   </div>
+                </div>
+              </div>
+              <!-- 如果需要分页器 -->
+              <div class="swiper-pagination"></div>
+          </div>
+          <!-- swiper -->
     </div>
-  </div>
-  <script type="text/javascript">
-  $(document).ready(function() {
-    $.fn.fullpage({
-      anchors: ['page1', 'page2', 'page3', 'page4','page5'],
-      navigation: true,
-      navigationColor:"#ff0000",
-      scrollingSpeed:500
-    });
-  });
-  </script>
-</body>
+    <!-- page5 ending -->
+    <div class="section page6">
+          <p class="page-titl">联系我</p>
+          <p class="page6-p1"><span class="page6-sp1">代码</span> <span class="page6-sp2">学习</span> <span class="page6-sp3">努力</span> <span class="page6-sp4">方向</span><br>注重效率，偏爱敏捷<br>喜欢尝试，期待新鲜事物<br>前端即兴趣，兴趣即未来<br>行路有良友，便是捷径<br>带上我吧，一起看到更大的世界</p>
+          <div class="page6-ways clearfix">
+            <a href="javascript:;" class="page6-way no-ml" title="点击加QQ好友">
+              <img src="images/res12.png">
+              <span class="page6-img"></span>
+            </a>
+            <a href="https://github.com/zhangxueyan" class="page6-way">
+              <img src="images/res13.png">
+            </a>
+            <a href="https://www.zhihu.com/people/coral-2017-0520/activities" class="page6-way"><img src="images/res14.png"></a>
+            <a href="https://weibo.com/5127518159/profile?topnav=1&wvr=6" class="page6-way"><img src="images/res15.png"></a>
+          </div>
+    </div>
+    <!-- page6 ending -->
+    <!-- fullpage+Swiper 4.4.2+jquery -->
+  <!-- <script src="js/jquery-1.10.2.min.js"></script> -->
+  <!-- <script src="js/jquery.easing.min.js"></script> -->
+  <!-- <script src="js/jquery.fullPage.min.js"></script> -->
+  <!-- <script src="js/swiper.min.js"></script> -->
+  <script src="concat/all.js"></script>
+  <script src="js/basic.js"></script>
+  </body>
 </html>
