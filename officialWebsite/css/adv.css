@@ -1,0 +1,79 @@
+﻿	.about_advs{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		padding: 55px 0 0;
+
+	}
+	.about_adv{
+		width: 33%;
+		height: 253px;
+		overflow: hidden;
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		margin: 0 auto;
+		float: left;
+		position: relative;
+		cursor: pointer;
+	}
+	.clearfix:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	.about_adv1{
+		background: url(../images/child_3.png) no-repeat top;
+	}
+	.about_adv1:hover{
+		background: url(../images/child_3_3.png) no-repeat top;
+	}
+	.about_adv2{
+		background: url(../images/child_2.png) no-repeat top;
+	}
+	.about_adv2:hover{
+		background: url(../images/child_2_2.png) no-repeat top;
+	}
+	.about_adv3{
+		background: url(../images/child_1.png) no-repeat top;
+	}
+	.about_adv3:hover{
+		background: url(../images/child_1_1.png) no-repeat top;
+	}
+	.about-titl {
+		width: 100%;
+		font-size: 16px;
+		position: absolute;
+		line-height: 50px;
+		text-align: center;
+		left: 0;
+		bottom: 0;
+	}
+	.about-num {
+		font-size: 45px;
+		font-weight: 700;
+		color: #fff;
+		cursor: pointer;
+		position: absolute;
+		left: 38%;
+		bottom: 70px;
+	}
+	.about-num em{
+		font-size: 20px;
+		color: #fff;
+		position: absolute;
+		right: -50px;
+		top:0;
+	}
+	.about-num3 {
+		left: 33%!important;
+	}
+	.about-num2 em {
+		font-size: 50px;
+		top: -25px;
+		right: -35px
+	}
+	.about-num3 em{
+       right: -25px;
+       font-size: 40px;
+       top: -20px;
+	}
