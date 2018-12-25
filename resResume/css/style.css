@@ -160,6 +160,10 @@ header{
 	font-size:32px;
 	color: #FFF;
 	text-align:center;
+	padding-bottom:20px;
+}
+.page1-titl{
+	visibility:hidden;
 }
 .page2-items{
 	width:800px;
@@ -193,6 +197,7 @@ header{
 	text-align: center;
 	line-height: 40px;
 	margin-top:50px;
+	padding:0 10px;
 }
 .page3-items{
 	width:800px;
@@ -329,11 +334,12 @@ header{
 	transform-origin: -60px -10px;
 }
 .page3-p1{
+	width:440px;
 	font-size:20px;
 	text-align:center;
 	color:#fff;
 	line-height: 40px;
-	margin-top:70px;
+	margin-top:30px;
 	float: right;
 }
 
@@ -375,17 +381,17 @@ header{
 
 .page5-items{
 	width:1200px;
-	padding:0 20px;
-	margin:30px auto 0;
+	padding:0 10px;
+	margin:10px auto 0;
 }
 .page5-item{
 	width:500px;
 	box-shadow: 0 3px 10px rgba(0,0,0,.2);
 	border-radius: 6px;
-	padding: 20px;
+	padding:10px 20px 15px;
 	background: #fff;
 	float:left;
-	margin-top:20px;
+	margin-top:10px;
 }
 .page5-item1{
 	float:left;
@@ -401,7 +407,12 @@ header{
 .page5-p2{
 	font-size: 16px;
 	line-height: 24px;
-	height: 96px;
+	height:72px;
+	overflow:hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 .page5-a1{
 	width:200px;
@@ -473,14 +484,14 @@ header{
 
 /*767px-991px*/
 @media screen and (max-width: 991px) {
-	/*.page-titl{width:100%;position:absolute;left:0;top:70px;}*/
+	/*.page-titl{display:none;}*/
 	.page2-items{width:760px;}
 	.page2-item{margin:20px 0 0 120px;}
-	.page3-items{width:100%;}
+	.page3-items{width:100%;margin:0 auto;}
 	.page3-ring{float:none;margin:0 auto;}
-	.page3-p1{float:none;}
+	.page3-p1{float:none;width:100%;padding: 0 15px;}
 
-	.page4-swiper1{width:90%;height:60%;}
+	.page4-swiper1{width:90%;height:80%;}
 
 }
 
@@ -491,8 +502,8 @@ header{
 
 	/*外层加相对定位*/
 	.tableCell{position: relative;}
-	.page-titl{top:70px;font-size:22px;}
-	.page2-items{width:100%;}
+	.page-titl{font-size:22px;}
+	.page2-items{width:100%;margin:0 auto;}
 	.page2-item{width:50%;margin:20px 0 0;}
 	.page2-icon{max-width:80px;max-height:80px;margin:0 auto;padding: 16px 0;}
 	.page2-p1{font-size:16px;margin-top:10px;}
@@ -524,7 +535,7 @@ header{
 
 
 	.page5-items{display:none;}
-	.page5-swiper2{display:block;height:60%;background: #F2F4F5;margin:40px auto 0;border-radius:10px;}
+	.page5-swiper2{display:block;height:80%;background:#F2F4F5;margin:0 auto;border-radius:10px;}
 	
 	.page5-item{width:100%;box-shadow:none;background:none;}
 	.page5-a1{width:100%;margin-top:20px;}
@@ -540,12 +551,11 @@ header{
 	.page1-p1 span{font-size:16px;padding:30px 5px 10px;}
 	.page1-p2{font-size:14px;line-height:30px;}
 
-	.page2-items{margin:10px auto 0;}
 	.page2-p2{font-size:14px;line-height:30px;margin-top: 20px;}
 
 	.page3-p1{font-size:14px;}
 
-	.page4-swiper1{margin: 20px auto 0;}
+	.page4-swiper1{margin:0 auto;}
 	.page4-txt{padding-left: 0;}
 	.page4-p1{font-size:16px;}
 	.page4-p2{font-size:14px;}
