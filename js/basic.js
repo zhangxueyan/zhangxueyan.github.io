@@ -22,20 +22,37 @@
       },
       //banner setCarousel
       fullCarousel:function(){
-        $.fn.fullpage({
-          slidesColor : ["#778aa9","#af6789","#945c4c","#84ada2","#b38d60","#B19494"],
-          anchors:['firstPage', 'secondPage', 'thirdPage','fourthPage','fifthPage','sixthPage'],
-          menu: '#myMenu',//绑定菜单，data-menuanchor才能使用.active
-          navigation: true,
-          navigationColor:"#ff0000",
-          scrollingSpeed:500
-        });
-        // 小屏幕的时候获取屏幕宽度
-        var wd = document.documentElement.clientWidth*0.9;
-        if(wd<=991){
-          $(".page4-swiper1").css('width',wd)
-          $(".page5-swiper2").css('width',wd)
-        }
+         $('#fullpage').fullpage({
+            slidesColor : ["#778aa9","#af6789","#945c4c","#84ada2","#b38d60","#B19494"],
+            anchors:['firstPage', 'secondPage', 'thirdPage','fourthPage','fifthPage','sixthPage'],
+            menu: '#myMenu',//绑定菜单，data-menuanchor才能使用.active
+            navigation: true,
+            navigationColor:"#ff0000",
+            verticalCentered:false,
+            // paddingTop:'150px',
+            showActiveTooltip: true,
+            scrollingSpeed:500
+          });
+          // 小屏幕的时候获取屏幕宽度
+          var wd = document.documentElement.clientWidth;
+          if(wd<=991){
+            $(".page4-swiper1").css('width',wd*0.9)
+            $(".page5-swiper2").css('width',wd*0.9)
+          }
+          //各种屏幕 内部部分距离顶部的高度。。
+          var $page = $(".section");
+          if(wd>1200){
+            $page.css("padding-top",'200px')
+          }
+          if(wd<=1200){
+            $page.css("padding-top",'180px')
+          }
+          if(wd<=991){
+            $page.css("padding-top",'120px')
+          }
+          if(wd<=479){
+            $page.css("padding-top",'80px')
+          }
       },
       //swiper
       halfCarousel:function(){
@@ -74,6 +91,4 @@
     obj.concatWays()
   })
   console.log(document.documentElement.clientWidth)
-  
-  
   
