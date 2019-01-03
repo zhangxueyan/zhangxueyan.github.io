@@ -371,11 +371,12 @@ header{
 }
 .page4-p2{
 	font-size: 18px;
+	line-height: 32px;
 	margin-top:10px;
 }
 .page4-p3{
 	font-size: 16px;
-	line-height:30px;
+	line-height:32px;
 	margin-top:10px;
 }
 
@@ -450,7 +451,7 @@ header{
 }
 .page6-ways{
 	width:280px;
-	margin:0 auto;
+	margin:30px auto 0;
 }
 .page6-way{
 	width:42px;
@@ -459,7 +460,7 @@ header{
 	border-radius:50%;
 	padding:5px;
 	float: left;
-	margin:40px 0 0 37px;
+	margin-left:37px;
 	position: relative;
 }
 
@@ -488,10 +489,10 @@ header{
 	.page2-items{width:760px;}
 	.page2-item{margin:20px 0 0 120px;}
 	.page3-items{width:100%;margin:0 auto;}
-	.page3-ring{float:none;margin:0 auto;}
+	.page3-ring{float:none;margin:10px auto;}
 	.page3-p1{float:none;width:100%;padding: 0 15px;}
 
-	.page4-swiper1{width:90%;height:80%;}
+	.page4-swiper1{width:90%;height:70%;}
 
 }
 
@@ -504,7 +505,7 @@ header{
 	.tableCell{position: relative;}
 	.page-titl{font-size:22px;}
 	.page2-items{width:100%;margin:0 auto;}
-	.page2-item{width:50%;margin:20px 0 0;}
+	.page2-item{width:50%;margin:10px 0 0;}
 	.page2-icon{max-width:80px;max-height:80px;margin:0 auto;padding: 16px 0;}
 	.page2-p1{font-size:16px;margin-top:10px;}
 	.page2-p2{font-size:16px;}
@@ -535,7 +536,7 @@ header{
 
 
 	.page5-items{display:none;}
-	.page5-swiper2{display:block;height:80%;background:#F2F4F5;margin:0 auto;border-radius:10px;}
+	.page5-swiper2{display:block;height:70%;background:#F2F4F5;margin:0 auto;border-radius:10px;}
 	
 	.page5-item{width:100%;box-shadow:none;background:none;}
 	.page5-a1{width:100%;margin-top:20px;}
@@ -559,7 +560,7 @@ header{
 	.page4-txt{padding-left: 0;}
 	.page4-p1{font-size:16px;}
 	.page4-p2{font-size:14px;}
-	.page4-p3{font-size:12px;}
+	.page4-p3{font-size:12px;margin-top:0!important;}
 
 
 	.page6-p1{font-size:14px;line-height:40px;}

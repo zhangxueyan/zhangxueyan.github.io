@@ -42,16 +42,16 @@
           //各种屏幕 内部部分距离顶部的高度。。
           var $page = $(".section");
           if(wd>1200){
-            $page.css("padding-top",'200px')
+            $page.css("padding-top",'150px')
           }
           if(wd<=1200){
-            $page.css("padding-top",'180px')
-          }
-          if(wd<=991){
             $page.css("padding-top",'120px')
           }
-          if(wd<=479){
+          if(wd<=991){
             $page.css("padding-top",'80px')
+          }
+          if(wd<=479){
+            $page.css("padding-top",'60px')
           }
       },
       //swiper
