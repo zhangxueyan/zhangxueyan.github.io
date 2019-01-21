@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>form</title>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <meta content="telephone=no" name="format-detection" />
+  <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+  <style>
+  .clearfix:after{
+    content:"";
+    display:block;
+    clear: both;
+  }
+  .seven_question {
+    font-size:14px;
+    color:#000;
+    margin:0 auto;
+  }
+  .item-option{
+    width:50%;
+    display:block;
+    float: left;
+    line-height:36px;
+  }
+  .item-option input{
+    border: 1px solid #333;
+  }
+  #mobile{
+    display:block;
+    width:100%;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #a19a9a;
+    font-size: 14px;
+  }
+  #submit{
+    display: block;
+    width:100%;
+    margin: 0 auto;
+    background: #b32e2f;
+    color: #fff;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+    border:none!important;
+    margin-top:10px;
+  }
+</style>
+</head>
+<body>
+<!-- form start -->
+<form  action="http://live.jswebcall.com/chat/form/commit.html" method="post" class="seven_question">
+  <input type="hidden" name="companyId" value="12593"/>
+  <input type="hidden" name="formId" value="1490"/> 
+
+  <input type="text" name="column6" placeholder="请输入您的手机号码" id="mobile">
+  <input type="text" name="column7" value="子站点1" id="subSite" style="display:none;">  
+  <input type="submit" value="一分钟获取测评结果" id="submit" onclick="submitData()">
+</form>   
+
+<script>
+  function submitData(){
+    
+
+   var column6Val=$("#mobile").val();
+   check_mobile = /^1[34578]\d{9}$/;
+   if(!column6Val){ alert("对不起，联系电话选项不能为空!");return false;}
+   if(!(check_mobile.test(column6Val))){
+    alert("请您输入正确的手机号");
+    return false;
+   }else{
+    alert("提交成功！");
+   }
+    
+  }
+
+</script>
+</body>
+</html>

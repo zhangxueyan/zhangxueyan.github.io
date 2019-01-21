@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>form</title>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <meta content="telephone=no" name="format-detection" />
+  <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+  <style>
+  .clearfix:after{
+    content:"";
+    display:block;
+    clear: both;
+  }
+  .seven_question {
+    font-size:14px;
+    color:#000;
+    margin:0 auto;
+  }
+  .item-option{
+    width:50%;
+    display:block;
+    float: left;
+    line-height:36px;
+  }
+  .item-option input{
+    border: 1px solid #333;
+  }
+  #mobile{
+    display:block;
+    width:100%;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #a19a9a;
+    font-size: 14px;
+  }
+  #submit{
+    display: block;
+    width:100%;
+    margin: 0 auto;
+    background: #b32e2f;
+    color: #fff;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+    border:none!important;
+    margin-top:10px;
+  }
+</style>
+</head>
+<body>
+<!-- form start -->
+<form class="seven_question">
+    <div class="form-item">
+      <div class="form-label">1、你想考哪种教师证？</div>
+      <div class="form-element clearfix">
+        <label class="item-option">
+          <input name="column1" value="A、幼儿教师" type="radio">A、幼儿教师</label>
+        <label class="item-option">
+          <input name="column1" value="B、小学教师" type="radio">B、小学教师</label>
+        <label class="item-option">
+          <input name="column1" value="C、中学教师" type="radio">C、中学教师</label>
+      </div>
+    </div>
+    <div class="form-item">
+      <div class="form-label">2、你的最高学历是：</div>
+      <div class="form-element clearfix">
+        <label class="item-option">
+          <input name="column2" value="A、专科以下" type="radio">A、专科以下</label>
+        <label class="item-option">
+          <input name="column2" value="B、专科及本科" type="radio">B、专科及本科</label>
+        <label class="item-option">
+          <input name="column2" value="C、本科以上" type="radio">C、本科以上</label>
+      </div>
+    </div>
+    <div class="form-item">
+      <div class="form-label">3、你的毕业院校类型：</div>
+      <div class="clearfix">
+        <label class="item-option">
+          <input name="column3" value="A、师范类" type="radio">A、师范类</label>
+        <label class="item-option">
+          <input name="column3" value="B、非师范类" type="radio">B、非师范类</label>
+        <label class="item-option">
+          <input name="column3" value="C、无大学文凭" type="radio">C、无大学文凭</label>
+
+      </div>
+    </div>
+    <input type="text" name="column4" placeholder="请输入您的手机号码" id="mobile">
+    <input type="submit" name="submit" value="一分钟获取测评结果" id="submit">
+    <input type="text" value="子站点1" id="subSite" style="display:none;">       
+</form>
+<script>
+    $(document).ready(function () {
+    //提交表单
+    $("#submit").click(function () {
+      var column1Val = $('input:radio[name="column1"]:checked').val();
+      var column2Val = $('input:radio[name="column2"]:checked').val();
+      var column3Val = $('input:radio[name="column3"]:checked').val();
+
+      var column4Val=$("#mobile").val();
+      check_mobile = /^1[34578]\d{9}$/;
+      if(!column4Val){ alert("对不起，联系电话选项不能为空!");return false;}
+      if(!(check_mobile.test(column4Val))){
+        alert("请您输入正确的手机号");
+        return false;
+      }
+
+      var column5Val = $("#subSite").val();
+
+
+      $.ajax({
+        type: "post",
+        async:false,
+        url: "http://live.jswebcall.com/chat/form/commit.html",
+        data: {
+          "companyId": 12593,
+          "formId": 1490, 
+          "column1": column1Val,
+          "column2": column2Val,
+          "column3": column3Val,
+          // 手机号
+          "column4": column4Val,
+          // 子站点
+          "column5": column5Val
+        },
+        dataType: 'jsonp',
+        jsonp: "_jsonpCallback",
+        success: function (json) {
+          console.log(json)
+        },
+        error:function(){
+          console.log("报错");
+        }
+      });
+
+      $("#mobile").val("")
+      alert("信息提交成功，我们将尽快与您联系！"); return false;
+    });
+  });
+</script>
+<!-- form ending -->
+</body>
+</html>

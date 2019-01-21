@@ -1,0 +1,110 @@
+﻿
+<!DOCTYPE HTML>
+<html>
+<head>
+    <base href="https://chat2432.talk99.cn/chat/">
+    <title></title>
+    
+    <link href="https://encrypt.soperson.com/cfile/talk99/160327/styles/formData.css?16121601" rel="stylesheet">
+    <script type="text/javascript" src="https://encrypt.soperson.com/cfile/talk99/160327/../../../default/js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="https://encrypt.soperson.com/cfile/talk99/160327/scripts/form.js?161216"></script>
+    <script type="text/javascript">
+
+        var config = {
+            propName:{label:"姓名",visible:0,required:0,type:"input",solid:1,order:10,rule:"name"},
+            propGender:{label:"性别",visible:0,required:0,type:"radio",option:[{label:"男",value:1},{label:"女",value:2}],solid:1,order:1},
+            propPhone:{label:"固定电话",visible:0,required:0,type:"input",rule:"phone",solid:1,order:2},
+            propMobile:{label:"手机",visible:1,required:1,type:"input",rule:"mobile",solid:1,order:11},
+            propQq:{label:"QQ",visible:0,required:0,type:"input",rule:"qq",solid:1,order:3},
+            propMsn:{label:"微信",visible:0,required:0,type:"input",rule:"email",solid:1,order:4},
+            propEmail:{label:"电子邮件",visible:0,required:0,type:"input",rule:"email",solid:1,order:5},
+            propColumn0:{label:"1、你想考哪种教师证？",visible:1,required:0,order:6,option:["A、幼儿教师","B、小学教师","C、中学教师"],type:"radio"},
+            propColumn1:{label:"2、你的最高学历是？",visible:1,required:0,order:7,option:["A、专科以下","B、专科及本科","C、本科以上"],type:"radio"},
+            propColumn2:{label:"3、你的毕业院校类型",visible:1,required:0,order:8,option:["A、师范类","B、非师范类","C、无大学文凭"],type:"radio"},
+            propColumn3:{label:"4、你的户籍归属",visible:0,required:0,order:9,option:["A、本地户籍","B、外地户籍"],type:"radio"},
+            propColumn4:{label:"自定义字段五",visible:0,required:0,order:12},
+            propColumn5:{label:"自定义字段六",visible:0,required:0,order:13},
+            propColumn6:{label:"自定义字段七",visible:0,required:0,order:14},
+            propColumn7:{label:"自定义字段八",visible:0,required:0,order:15},
+            propColumn8:{label:"自定义字段九",visible:0,required:0,order:16},
+            propColumn9:{label:"自定义字段十",visible:0,required:0,order:17}
+        };
+        var data = null;
+        
+
+        window.onload = function () {
+            writeForm(config, data, false, '');
+        }
+    </script>
+</head>
+<body >
+<div class="wrapper ">
+    <form action="form" method="post" id="dataForm"
+          target="_self" onkeydown="if(event.keyCode==13){submitData();return false;}">
+        <input type="hidden" name="c" value="20002121">
+        <input type="hidden" name="conf" value="14297">
+        <input type="hidden" name="cmd" value="save">
+        <input type="hidden" name="redirect" value="">
+        <input type="hidden" name="pos" value="">
+        <input type="hidden" name="page" value="">
+
+        <div id="formRegion">
+
+        </div>
+    </form>
+</div>
+<a class="submit" onclick="trData()">一分钟获取测评结果</a>
+<style type="text/css">
+      html,body{font-family:"Helvetica","Microsoft YaHei";}
+     *{margin: 0;padding: 0;border: 0;outline: 0;box-sizing: border-box;-weblikt-box-sizing: border-box;}
+    .submit{display: block;margin: 0 auto;width: 90%!important;background: #b32e2f; color:#fff;line-height: 36px;text-align: center;font-size: 16px;}
+    .btn-submit{ width: 90%!important; background-image: none!important; background-color: #a19a9a;  margin: 0 auto; display: none;}
+    .form-item{ margin-top: 5px!important; line-height: 30px; text-align: center; }
+
+    .form-label{ height: 30px; line-height: 30px;width: 100%!important;font-family:"Helvetica","Microsoft YaHei"; font-size: 16px;color:#333;font-weight: bold;padding-left: 10px;text-align: left;}
+     #item_name  .form-label,#item_mobile .form-label{display:none!important;}
+     .item-option{width: 46%;text-align: left;}
+    .item-option label{font-size: 14px;color:#333;}
+    .form-radio{border:1px solid #333;}
+
+    .form-text{ width: 90%!important; height: 36px;line-height: 36px; border: 1px solid #a19a9a;  font-size: 14px;}
+    .form-element{ margin-left: 0px!important ;display:inline; }
+    .form-item-over{background:none !important;}
+    .item-required{display:none!important;} 
+    .form-error-msg{display:none!important;} 
+    .form-error{display:none!important;}
+</style>
+ <script type="text/javascript">
+     function extend(){
+        $("#submitItem .btn-submit").html("免费获取落户积分政策");
+        $("#item_name input").attr("placeholder","输入您的姓名");
+        $("#item_mobile input").attr("placeholder","输入您的手机号");
+    }
+    window.onload = function(){
+        writeForm(config, true, '');
+        extend();
+    };
+</script>
+<script>
+ function trData(){
+     
+     var mobile=document.getElementsByName("mobile")[0].value;
+     check_mobile=/^(((1[0-9][0-9]{1}))+\d{8})$/;
+    
+     if(!mobile){ alert("对不起，联系电话选项不能为空!");return false;}
+     if(!(check_mobile.test(mobile)))
+     {
+         alert("请您输入正确的手机号");
+         return false;
+      }
+      submitData();  
+     }
+</script>
+<script type="text/javascript">
+    var ua = navigator.userAgent.toLowerCase();
+    if (ua.match(/MicroMessenger/i) == "micromessenger") {
+        document.getElementById('dataForm').setAttribute("method","get");
+    }
+</script>
+</body>
+</html>
