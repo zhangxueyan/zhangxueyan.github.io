@@ -1,0 +1,26 @@
+/* CSS Document */
+
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+/* changeBox_a1 */
+.changeBox_a1{position:relative;height:720px;width:1200px;overflow:hidden;margin:30px auto;}
+.changeBox_imgs{position:relative;height:670px;width:1200px;overflow:hidden;clear:both;}
+.changeBox_imgs_list{position:absolute;width:9999px;}
+.changeBox_imgs_list li{float:left;height:670px;width:1200px;}
+
+/* ul_change */
+.ul_change,.ul_change .arrow_bar{background:#ccc;}
+.ul_change{position:relative;width:1200px;height:14px;left:0px;bottom:0px;border-radius:10px;}
+.ul_change .arrow_bar{
+	position:absolute;width:300px;height:10px;
+	z-index:8;top:2px;left:0;cursor:pointer;
+	background:#1dd2af;
+	border-radius:10px;
+}
+.ul_change li{
+	display:block;_display:inline-block;
+	float:left;position:relative;width:300px;height:30px;
+	line-height:40px;z-index:9;
+	cursor:pointer;
+}

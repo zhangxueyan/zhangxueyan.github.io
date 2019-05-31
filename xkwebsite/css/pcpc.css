@@ -1,0 +1,438 @@
+
+    #xk_left{
+        float: left;
+    }
+    #xk_nav{
+        float: right;
+    }
+    #js_content{
+        background: #f8f8f8;
+        padding: 50px 0;
+    }
+
+    .js_mian{
+        width:1200px;
+        margin:0  auto;
+    }
+    #js_content .js_mian .js_left{
+        width: 165px;
+        list-style: none;
+        float: left;
+    }
+    #js_content .js_mian .js_left li{
+        width: 165px;
+        height:42px;
+        line-height: 42px;
+        text-align: center;
+        font-size: 16px;
+        background: #fff;
+    }
+    #js_content .js_mian .js_left li a{
+        color: #000;
+    }
+
+    #js_content .js_mian .js_left li#active{
+        background: #2d3e50 !important;
+    }
+    #js_content .js_mian .js_left li#active a{
+        color: #fff;
+    }
+    #js_content .js_mian .js_left li:hover{
+    }
+    #js_content .js_mian .js_left li:hover a{
+        text-decoration: none;
+    }
+    #js_content .js_mian .js_right{
+        float: right;
+        background: #fff;
+        padding:20px;
+        width: 940px;
+    }
+    #js_content .js_mian .lx_right{
+        float: right;
+        background: #fff;
+        padding:20px;
+        width: 940px;
+    }
+    .lx_right_right{
+        float: left;
+    }
+    .lx_right_left{
+        float: left;
+    }
+    .right_mian{
+        padding: 10px;
+    }
+    .right_mian h2{
+        color: #1dd2af;
+        font-size: 32px;
+        font-weight: normal;
+        padding: 0px;
+        padding-top:2px;
+    }
+    #div_main3 p{
+        padding: 0;
+        margin-bottom:45px;
+    }
+    #div_main3{
+        background: url("../images/div3_03.jpg") no-repeat ;
+        padding-left:40px ;
+        padding-top:0;
+    }
+    .right_mian ul{
+        overflow: hidden;
+        list-style: none;
+        width:900px;
+        padding:20px 0;
+    }
+    .right_mian ul li{
+        width: 126px;
+        height:100px;
+        background: #2d3e50;
+        color: #fff;
+        text-align: center;
+        padding:20px 0;
+        font-size: 12px;
+        margin-right:20px;
+        float: left;
+    }
+    .right_mian ul li span{
+        font-size: 30px;
+    }
+    .p_text{
+        font-size: 14px;
+        text-indent:2em;
+        line-height: 2em;
+    }
+    #js_content h3{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        position: relative;
+    }
+    #js_content h3 span{
+        position: absolute;
+        display: block;
+        width:120px;
+        height:2px;
+        background: #1dd2af;
+        bottom:-1px;
+        left:10px;
+    }
+    #div_main4 img{
+        display: block;
+        width:696px ;
+        height: 317px;
+        margin:20px auto;
+    }
+    #div_main2 h4{
+        font-size: 16px;
+        color: #000;
+        padding:10px 0;
+    }
+    #div_main2 p{
+        font-size: 14px;
+        color: #666;
+    }
+
+    .xw_right{
+        float: right;
+        background: #fff;
+        padding:20px;
+        width: 940px;
+    }
+    #xw_right_content{
+        height: 205px;
+        background: #fff;
+        padding:20px;
+    }
+    #xw_right_content_left{
+        float: left;
+        width: 266px;
+        margin-right: 10px;
+    }
+    #xw_right_content_right{
+        float: left;
+        width: 580px;
+    }
+    #xw_right_content_right h4{
+        font-size:18px;
+        color: #1dd2af;
+    }
+    #xw_right_content_right p:nth-of-type(1){
+        color: #666;
+        padding: 15px 0;
+        font-size: 14px;
+        line-height:25px;
+    }
+    #xw_right_content_right p:nth-of-type(2){
+
+    }
+
+    .xy_right{
+        float: right;
+        width: 940px;
+    }
+    #xy_right_content{
+        width: 288px;
+        margin-right: 25px;
+        background: #fff;
+        float: left;
+		margin-bottom:20px;
+    }
+    #xy_right_main{
+        padding:5px 10px;
+		height:330px;
+    }
+	#xy_right_main > h4{
+		text-align:center;
+		line-height:30px;
+		
+	}
+    /**----投诉中心---**/
+    .ts_mian1{
+        width: 1200px;
+        margin: 50px auto;
+        padding: 10px;
+    }
+    .ts_mian1 ul{
+        padding: 0;
+        list-style: none;
+    }
+    .ts_mian1 ul li{
+        padding: 0;
+        float: left;
+        text-align: center;
+        width: 330px;
+        height:400px;
+        margin: 30px;
+        box-shadow:0 3px 20px 0 rgba(0,0,0,0.1);
+    }
+    .ts_mian1 ul li div > p{
+        height:16px;
+        color: #999;
+        line-height:16px;
+        font-size: 14px;
+    }
+    .ts_mian1 ul li div > p:nth-of-type(2){
+        margin-bottom:20px;
+    }
+    .ts_mian1 ul li div > p:nth-of-type(3){
+        width: 160px;
+        height:45px;
+        background: #1dd2af;
+        margin: 0 auto;
+        color: #fff;
+        line-height: 45px;
+        font-size: 16px;
+    }
+    .ts_mian1 > p{
+        text-align: center;
+    }
+    .ts_mian1 > p:nth-of-type(1){
+        font-size: 36px;
+        color: #2d3e50;
+    }
+    .ts_mian1 > p:nth-of-type(1) span{
+        color: #1dd2af;
+    }
+    .ts_mian1 > p:nth-of-type(2){
+        font-size:20px;
+        color: #999;
+        margin-bottom: 50px;
+    }
+    .ts_mian2{
+        width:100%;
+        background: url(../images/ts2_02.jpg) no-repeat center center;
+        padding:40px 0;
+    }
+    .ts_mian2 > p{
+        color: #fff;
+        text-align: center;
+        font-size: 36px;
+    }
+    .ts_mian2 .main2_content{
+        width: 1200px;
+        margin:  50px auto;
+    }
+
+    .ts_mian2 .main2_content ul{
+        padding:0 10px;
+        list-style: none;
+        width: 1090px;
+        margin: 0 auto;
+    }
+    .ts_mian2 .main2_content ul li{
+        float: left;
+        text-align: center;
+        font-size: 30px;
+        width:230px;
+        height:210px;
+        border-bottom-right-radius:50px;
+        border-top-left-radius:50px;
+        background: #fff;
+        margin-left:100px;
+        color: #000;
+        margin-bottom: 40px;
+        padding:50px 0;
+    }
+    .ts_mian2 .main2_content ul li span{
+        font-size:60px;
+        color: #3d4c5d;
+    }
+    .ts_mian2 .main2_content ul li > p{
+        font-size:24px;
+    }
+
+    .ts_mian3 > p{
+        text-align: center;
+        padding: 50px 0;
+        font-size: 36px;
+        color: #2d3e50;
+    }
+    .main3_content{
+        width:1190px;
+        background-image: url(../images/ts3_03.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding:50px 0;
+        margin: 0 auto;
+        height: 617px;
+    }
+    .main3_content > p{
+        font-size:16px ;
+        color: #000;
+        padding-left:70px;
+        height:30px;
+        line-height:30px;
+    }
+    .ts_main4{
+
+    }
+    .ts_main4 > p {
+        text-align: center;
+    }
+    .main4_content{
+        width:1190px;
+        padding:50px 0;
+        margin: 0 auto;
+    }
+    .main4_content > p{
+        font-size:16px ;
+        color: #000;
+        padding-left:10px;
+        height:30px;
+        line-height:30px;
+        text-align: center;
+    }
+    .main4_content ul{
+        width: 390px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .main4_content ul li {
+        float: left;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    .main4_content ul li a{
+        padding: 0 10px;
+        width: 130px;
+        display: inline-block;
+    }
+    .ts_main4 i{
+        color: red;
+    }
+    .ts_main4 > p{
+        font-size: 36px;
+        color: #2d3e50;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .main4_content ul li{
+        text-align: center;
+    }
+    .main4_content ul li a{
+        color: #666;
+    }
+    .main4_content ul li a:hover{
+        color: #1dd2af;
+    }
+    .main4_content p{
+        text-align: center;
+    }
+    .ts_main4 .postform{
+        width:750px;
+        margin: 0 auto;
+    }
+    .ts_main4 .postform input{
+        display: inline-block;
+        width: 580px;
+        height:40px;
+        margin: 20px auto;
+    }
+    .ts_main4 .postform i{
+        color: red;
+    }
+
+    .ts_main4 .postform label{
+        cursor: pointer;
+        display: inline-block;
+        padding: 3px 6px;
+        text-align:left;
+        width: 150px;
+        vertical-align: center;
+    }
+
+    .ts_main4 .postform input{
+        font-size: inherit;
+    }
+    .ts_main4 .postform #btn{
+        width:142px;
+        height:40px;
+        background: #1dd2af;
+        margin: 50px auto;
+        text-align: center;
+        line-height: 40px;
+        color: #fff;
+        cursor: pointer;
+    }
+    /**----投诉中心---**/
+    #footer p.p1{
+        font-size: 26px;
+    }
+    #footer  p.p3{
+        width: 133px;
+        height:45px;
+        line-height: 45px;
+        border: 1px solid #fff;
+        text-align: center;
+        position: relative;
+        padding-left: 20px;
+    }
+    #footer ul{
+        padding: 0;
+        list-style: none;
+    }
+    #footer ul li{
+        float: left;
+        font-size: 14px;
+        margin-right:20px;
+    }
+    #footer ul li a{
+        color: #fff;
+    }
+    #footer ul li a:hover{
+        text-decoration: none;
+        color: #1dd2af;
+    }
+    #footer  p.p3 span{
+        display: inline-block;
+        height:45px;
+        line-height: 30px;
+        font-size: 24px;
+        position: absolute;
+        left:10px;
+        top:8px;
+    }

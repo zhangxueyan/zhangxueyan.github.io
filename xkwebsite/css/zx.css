@@ -1,0 +1,785 @@
+/*----------头部部分------------*/
+.nav{
+    height:60px;
+    background: #fff;
+    width: 100%;
+    position:fixed;
+    top:0;
+    z-index: 999;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav #xk_header{
+    width: 1200px;
+    margin: 0 auto;
+    z-index: 99;
+    height:60px;
+}
+#xk_header ul li{
+    list-style: none;
+    padding: 0;
+}
+#xk_header li.active > a{
+    color: #1dd2af;
+}
+#xk_left{
+    float: left;
+    line-height:60px;
+}
+#xk_nav{
+    float: right;
+
+}
+#xk_ul > li{
+    float: left;
+}
+#xk_ul > li > a{
+    padding: 0 20px;
+    height: 60px;
+    line-height: 60px;
+    color: #333;
+    display: block;
+    font-size: 16px;
+	
+}
+#xk_ul li a:hover{
+    color:#1dd2af;;
+    text-decoration: none;
+}
+#dif_li{
+    position: relative;
+}
+#header_down{
+    display: none;
+    position: absolute;
+    background:#fff;
+    padding: 0;
+    list-style: none;
+}
+#dif_li:hover #header_down{
+    display: block;
+}
+#header_down > li{
+
+}
+#header_down > li > a{
+    width: 100%;
+    text-align: center;
+    height:40px;
+    display: block;
+    line-height: 40px;
+    padding: 0 20px;
+    color: #333;
+    font-size: 16px;
+}
+/*----------/头部部分------------*/
+
+.zx_mian2{
+    background: url("../images/zx2.1_02.jpg") no-repeat center center;
+    padding-top:80px ;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.zx_container2{
+    width: 1200px;
+    margin: 0 auto;
+}
+.zx_container2 > p{
+    text-align: left;
+    font-size:36px;
+    font-family: ".PingFang SC";
+    font-weight: lighter;
+    margin-bottom: 50px;
+    color: #fff;
+    position: relative;
+    height: 80px;
+}
+.zx_container2 > p > span{
+    width: 70px;
+    background: #1dd2af;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    height:3px;
+}
+.zx_container2 ul{
+    padding: 0;
+}
+.zx_container2 ul li{
+    list-style: none;
+    width:275px;
+    text-align: center;
+    float: left;
+    margin-bottom: 50px;
+    background: #fff;
+    height: 360px;
+    margin-right: 30px;
+    padding-top: 50px;
+    position: relative;
+}
+.zx_container2 ul li > span{
+    width: 40px;
+    height:2px;
+    background: #1dd2af;
+    position: absolute;
+    top: 0;
+    display: block;
+    left:50%;
+    transform: translateX(-50%);
+}
+.zx_container2 ul li img{
+    display: inline-block;
+    border: none;
+    width: 78px;
+    height:71px;
+    margin-bottom: 10px;
+}
+.zx_container2 ul li h4{
+    text-align: center;
+    font-size:24px;
+    font-family: ".PingFang SC";
+    font-weight: bold;
+}
+.zx_container2 ul li p{
+    text-align: center;
+    font-size: 16px;
+    font-family: ".PingFang SC";
+    font-weight: lighter;
+    color: #999;
+    height:20px;
+}
+.zx_container2 ul li p span{
+    font-size:20px;
+    color: #000;
+}
+
+
+
+.zx_mian3{
+    background: url("../images/zx3_03.jpg") no-repeat right top;
+}
+.zx_content3{
+ width: 1200px;
+ margin: 0 auto;
+  padding: 50px 0;
+}
+.zx_content3 > p{
+    text-align: right;
+    font-size: 36px;
+    color: #333;
+	font-family: ".PingFang SC";
+}
+.zx_content3 > p:nth-of-type(2){
+    font-size: 20px;
+    color: #999;
+    position: relative;
+    height: 50px;
+    margin-bottom:60px;
+}
+.zx_content3 > p:nth-of-type(2) > span{
+    width: 70px;
+    height:3px;
+    background: #1dd2af;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    right: 0;
+}
+.zx_content3 > .djs{
+    background: url("../images/zx3.1_03.jpg") no-repeat center center;
+    width: 570px;
+    height: 206px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom:30px;
+}
+.zx_content3 > .djs > p{
+    width: 190px;
+    height: 160px;
+    position: absolute;
+    line-height: 190px;
+    display: block;
+    font-size: 30px;
+    color: #000;
+    text-align: right;
+	font-family: ".PingFang SC";
+}
+.zx_content3 > .djs > p > span{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    text-align: center;
+    line-height: 160px;
+    display: block;
+    font-size: 80px;
+    color: #fff;
+	font-family: ".PingFang SC";
+}
+.zx_content3 > .djs > p:nth-of-type(1) {
+    left:100px;
+    top:0;
+}
+.zx_content3 > .djs > p:nth-of-type(1) > span{
+    left:0;
+    top:0;
+}
+.zx_content3 > .djs > p:nth-of-type(2){
+    left:300px;
+    top:0;
+}
+.zx_content3 > .djs > p:nth-of-type(2) > span{
+    left:0;
+    top:0;
+}
+.zx_content3 > .zx3_tx{
+    background: url("../images/zxtx_03.jpg") no-repeat center center;
+    height: 111px;
+    width: 779px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom:80px;
+}
+.zx_content3 > .zx3_tx > p{
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    left:80px;
+    font-size: 16px;
+	font-family: ".PingFang SC";
+}
+.zx_content3 > .zx3_tx > p:nth-of-type(1){
+    top:35px;
+
+}
+.zx_content3 > .zx3_tx > p:nth-of-type(2){
+    bottom:15px;
+}
+.zx3_step ul{
+    padding: 0;
+}
+.zx3_step ul li{
+    float: left;
+    list-style: none;
+    background: url("../images/zx3.3_03.jpg") no-repeat center center;
+    width: 223px;
+    height: 162px;
+    color: #fff;
+    position: relative;
+    margin-left:15px;
+}
+.zx3_step ul li > p:nth-of-type(1){
+    position: absolute;
+    left:20px;
+    top:15px;
+    font-size: 20px;
+	font-family: ".PingFang SC";
+}
+.zx3_step ul li > p:nth-of-type(2){
+   position: absolute;
+    left:0px;
+    top:75px;
+    font-size: 16px;
+    width: 200px;
+    text-align: center;
+	font-family: ".PingFang SC";
+}
+.zx_main3_bottom{
+    background: url("../images/zx3.bt_02.jpg") no-repeat center bottom;
+    height:195px;
+    position: relative;
+}
+.zx_main3_bottom p{
+    background: url("../images/zxbtn_03.png") no-repeat center bottom;
+    width: 338px;
+    height: 63px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 63px;
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+	font-family: ".PingFang SC";
+}
+
+
+
+.zx_main4{
+    margin-bottom: 50px;
+    height:1000px;
+    background: green;
+}
+.zx_main4 .main4_div1{
+    background: url("../images/zx4_02.jpg") no-repeat center center;
+    height: 266px;
+    width: 100%;
+}
+.zx_main4 .main4_div2{
+    background: url("../images/zx4_03.jpg") no-repeat center center;
+    height: 736px;
+    width: 100%;
+}
+
+.zx_main5{
+  position: relative;
+    height:700px;
+}
+.zx_main5 .zx5_div1{
+    width: 100%;
+    height:210px;
+    background: #3d535f;
+    position: absolute;
+    top:0;
+}
+.content5_main{
+    width: 1200px;
+    border: 1px solid #fff;
+    border-radius:50px ;
+    margin: 0 auto;
+    box-shadow: 0px 10px 50px #effcf9;
+    z-index: 999;
+    position: absolute;
+    top:105px;
+    background: #fff;
+    left:50%;
+    margin-left: -600px;
+    padding:60px 18px;
+
+}
+.content5_main ul {
+    padding: 0;
+    float: left;
+}
+.content5_main ul li{
+    width: 146px;
+    height:50px;
+    list-style: none;
+    background: #f2f2f2;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom:3px;
+    font-size: 16px;
+    color: #000;
+    margin-left:18px;
+	font-family: ".PingFang SC";
+}
+.content5_main ul li:nth-of-type(1){
+    background: url("../images/zx5_03.jpg") no-repeat center center;
+    color: #fff;
+    line-height: 60px;
+}
+.zx_main5 > p{
+    background: url("../images/zxbtn_03.png") no-repeat center bottom;
+    width: 338px;
+    height: 63px;
+    z-index: 99;
+   position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 63px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+	font-family: ".PingFang SC";
+    cursor: pointer;
+}
+
+
+
+.zx_main6 {
+   position: relative;
+    margin-bottom: 50px;
+}
+.zx_main6 > div.zx6_div1{
+   background: url("../images/zx6_02.jpg") no-repeat left top;
+    height:446px;
+}
+.zx_main6 > div.zx6_div1 > p{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: right;
+
+}
+.zx_main6 > div.zx6_div1 > p:nth-of-type(1){
+    font-size: 36px;
+    margin-bottom: 10px;
+    padding-top: 150px;
+}
+.zx_main6 > div.zx6_div1 > p:nth-of-type(2){
+   position: relative;
+    font-size:20px;
+    height: 60px;
+}
+.zx_main6 > div.zx6_div1 > p:nth-of-type(2) span{
+    position: absolute;
+    width: 70px;
+    height:3px;
+    background: #1dd2af;
+    bottom: 0;
+    right:4px;
+}
+.zx6_div2{
+    width: 1200px;
+    margin: 0 auto;
+}
+.zx6_div2 ul{
+    padding: 0;
+}
+.zx6_div2 ul li{
+    list-style: none;
+    width:214px;
+    float: left;
+    margin-left:30px;
+}
+.zx6_div2 ul li:nth-of-type(1){
+    margin-left:0;
+}
+.zx6_div2 ul li > p:nth-of-type(1) {
+    height: 80px;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-bottom: 0;
+    width: 180px;
+    background: #1dd2af;
+    margin: 0 auto;
+    font-size: 46px;
+    color: #fff;
+    text-align: center;
+    line-height: 80px;
+}
+.zx6_div2 ul li > p:nth-of-type(2) {
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    width:214px;
+    background: #f2f2f2;
+    font-size: 20px;
+	font-family: ".PingFang SC";
+}
+.zx6_div3{
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 10px 80px #effcf9;
+    background: #fff;
+    height: 400px;
+    padding: 50px 30px;
+    margin-bottom: 50px;
+}
+.zx6_div3 ul {
+    padding: 0;
+    float: left;
+}
+.zx6_div3 ul li{
+    width:210px;
+    height:50px;
+    list-style: none;
+    background: #1dd2af;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom:3px;
+    font-size: 16px;
+    margin-left:18px;
+    color: #fff;
+	font-family: ".PingFang SC";
+}
+.zx6_div3 ul.ul2 > li:nth-child(n+1){
+    background: #f2f2f2;
+    color: #000;
+}
+.zx6_div3 ul.ul2 > li:nth-child(1){
+
+    background: #1dd2af;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom:3px;
+    font-size: 16px;
+    margin-left:18px;
+    color: #fff;
+	font-family: ".PingFang SC";
+}
+.zx6_div3 ul.ul3 > li:nth-of-type(2){
+
+    background: #f2f2f2 url("../images/stat_03.jpg") no-repeat center center;
+
+
+}
+.zx6_div3 ul.ul3 > li:nth-of-type(3){
+
+    background: #f2f2f2 url("../images/stat_06.jpg") no-repeat center center;
+}
+.zx6_div3 ul.ul3 > li:nth-of-type(4){
+
+    background: #f2f2f2 url("../images/stat_09.jpg") no-repeat center center;
+
+}
+.zx6_div3 ul.ul3 > li:nth-of-type(5){
+
+    background: #f2f2f2 url("../images/stat_12.jpg") no-repeat center center;
+}
+.zx_main6 > p{
+    background: url("../images/zxbtn_03.png") no-repeat center bottom;
+    width: 338px;
+    height: 63px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 63px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: ".PingFang SC";
+    z-index: 999;
+}
+
+
+.zx_main7{
+    background: url("../images/zx7_02.jpg") no-repeat center center;
+    height: 732px;
+}
+.zx_main7 > div.zx7_div1{
+    width: 1200px;
+    margin:0 auto;
+}
+.zx_main7 > div.zx7_div1 > p{
+    width: 1200px;
+    margin: 0 auto;
+    text-align:left;
+    color: #fff;
+}
+.zx_main7 > div.zx7_div1 > p:nth-of-type(1){
+    font-size: 36px;
+    margin-bottom: 30px;
+    padding-top:70px;
+	font-family: ".PingFang SC";
+}
+.zx_main7 > div.zx7_div1 > p:nth-of-type(2){
+    position: relative;
+    font-size: 20px;
+    height: 60px;
+
+}
+.zx_main7 > div.zx7_div1 > p:nth-of-type(2) span{
+    position: absolute;
+    width: 70px;
+    height:3px;
+    background: #1dd2af;
+    bottom: 0;
+    left:4px;
+}
+.zx_main7 > div.zx7_div2{
+    width: 1200px;
+    margin:50px auto;
+    color: #fff;
+    margin-bottom: 80px;
+}
+.zx_main7 > div.zx7_div2 > p:nth-of-type(1){
+    padding-top: 30px;
+    font-size: 14px;
+	font-family: ".PingFang SC";
+}
+.zx_main7 > div.zx7_div2 > p{
+    font-size: 14px;
+	font-family: ".PingFang SC";
+}
+.zx7_div3{
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+.zx7_div3 > p{
+    float: left;
+    width: 220px;
+    height: 58px;
+    background: #1dd2af;
+    border-radius: 58px;
+    text-align: center;
+    line-height: 58px;
+    font-size: 20px;
+    margin-right: 50px;
+	font-family: ".PingFang SC";
+}
+
+
+
+.zx_main8{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+.zx_main8 > div.zx8_div1{
+
+}
+.zx_main8 > div.zx8_div1 > p{
+    width: 1200px;
+    margin: 0 auto;
+    text-align:right;
+    color: #000;
+}
+.zx_main8 > div.zx8_div1 > p:nth-of-type(1){
+    font-size: 36px;
+    margin-bottom: 10px;
+    padding-top:70px;
+}
+.zx_main8 > div.zx8_div1 > p:nth-of-type(2){
+    position: relative;
+    font-size: 20px;
+    height: 60px;
+
+}
+.zx_main8 > div.zx8_div1 > p:nth-of-type(2) span{
+    position: absolute;
+    width: 70px;
+    height:3px;
+    background: #1dd2af;
+    bottom: 0;
+    right:4px;
+}
+.zx_main8 > div.zx8_div2{
+    width: 600px;
+    height: 356px;
+    float: left;
+    background: url("../images/zx8_03.jpg") no-repeat center center;
+}
+.zx_main8 > div.zx8_div3{
+    width: 600px;
+    height:456px;
+    float: left;
+    background: url("../images/zx8_03.jpg") no-repeat center bottom;
+    padding-top: 100px;
+}
+.zx_main8 h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom:60px;
+}
+.zx_main8 div.zx8_div2 p{
+   font-size: 16px;
+    padding-left:80px;
+}
+.zx_main8 div.zx8_div3 p{
+    font-size: 16px;
+    padding-left:80px;
+}
+
+
+.zx_main9{
+    background: url("../images/bottom_02.jpg") no-repeat center center;
+    height:503px;
+}
+.zx_content9 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+    height:503px;
+
+}
+.form9{
+   width: 330px;
+    height: 320px;
+    background: #3d525f;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right:100px;
+}
+.form9  form{
+  padding-top: 15px;
+}
+.form9  form > p{
+    width: 250px;
+    height: 40px;
+    margin: 15px auto;
+}
+.form9  form > p > input{
+    display:inline-block;
+    width: 250px;
+    height: 40px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border: none;
+    outline:none
+}
+.form9  form > p > input#yzm{
+    width: 120px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.form9  form > p > span{
+    width: 120px;
+    height: 40px;
+    background: #1dd2af;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form9  form > p#submit{
+    width: 250px;
+    height: 40px;
+    margin: 10px auto;
+    background: #1dd2af;
+    color: #ffff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+}
+.form9  form > p#submit a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+ /*底部*/
+
+#footer p.p1{
+    font-size: 26px;
+}
+#footer  p.p3{
+    width: 133px;
+    height:45px;
+    line-height: 45px;
+    border: 1px solid #fff;
+    text-align: center;
+    position: relative;
+    padding-left: 20px;
+}
+#footer ul{
+    padding: 0;
+    list-style: none;
+}
+#footer ul li{
+    float: left;
+    font-size: 14px;
+    margin-right:20px;
+}
+#footer ul li a{
+    color: #fff;
+}
+#footer ul li a:hover{
+    text-decoration: none;
+    color: #1dd2af;
+}
+#footer  p.p3 span{
+    display: inline-block;
+    height:45px;
+    line-height: 30px;
+    font-size: 24px;
+    position: absolute;
+    left:10px;
+    top:8px;
+}
+
+.changeBox_imgs_list li a img{
+    display: block;
+    border: none;
+    width: 1200px;
+    height: 670px;
+}
