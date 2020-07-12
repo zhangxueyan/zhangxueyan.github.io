@@ -1,0 +1,84 @@
+﻿.can_copy {
+        color:red;
+        font-weight:bold;
+        }
+        .diviver {
+            background-color: #ebebeb;
+            height: 20px;
+        }
+         .diviver2 {
+            background-color: #ebebeb;
+            font-size:1.2em;
+            text-align:center;
+            color:#999999;
+            line-height:3em;
+        }
+          .diviver3 {
+            background-color: #ebebeb;
+        }
+        .maincolor {
+            color: #454545;
+        }
+
+        .guanzhu {
+            font-size: .9em;
+            color: #6c757d;
+            line-height: 2em;
+            text-align: center;
+        }
+
+        .huida {
+            color: #6c757d;
+            font-weight: bold;
+            line-height: 3em;
+        }
+
+        .zl {
+            background-color: #ebebeb;
+            color: #979797;
+            line-height: 2.5em;
+            font-size: .9em;
+        }
+
+        .nickname {
+            display: block;
+            font-weight: bold;
+            font-size: .9em;
+        }
+        .nickname2 {
+            display: block;
+            font-weight: bold;
+            font-size: 1em;
+            line-height:2.2em;
+        }
+
+        .xin {
+            color: #8b8b8b;
+            font-size: .9em;
+        }
+
+        .rights {
+            font-size: .8em;
+            color: #989898;
+        }
+
+        .good {
+            color: #999999;
+            font-size: 1.2em;
+        }
+
+        .comm {
+            font-size: 0.6em;
+            line-height: 1.2em;
+        }
+
+        .cf {
+            font-size: 1.2em;
+            color: #6c757d !important;
+        }
+        .container {
+        max-width:640px;
+        }
+        .myweb {
+        color: #454545;
+        }
